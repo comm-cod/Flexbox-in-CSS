@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/66438c9bef.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <title>Answer4</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      .pricingSection {
+        width: 962px;
+        height: 427px;
+        padding: 32px 48px 32px 48px;
+        display: flex;
+        gap: 32px;
+        background-color: #f4f2fd;
+      }
+      .cardOne {
+        width: 262px;
+        height: 340px;
+        padding: 32px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        box-shadow: 0px 1px 10px 0px #00000040;
+        background-color: #ffffff;
+      }
+
+      .cardTwo {
+        width: 262px;
+        height: 340px;
+        padding: 32px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        box-shadow: 0px 1px 10px 0px #00000040;
+        background-color:  #202842;
+;
+      }
+      .cardThree {
+        width: 262px;
+        height: 340px;
+        padding: 32px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        box-shadow: 0px 1px 10px 0px #00000040;
+        background-color: #ffffff;
+      }
+
+      .carddetails {
+        width: 198px;
+        height: 350px;
+        margin: auto;
+        display: flex;
+        gap: 32px;
+        flex-direction: column;
+      }
+      .cardDetails {
+        width: 198px;
+        height: 236px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        background-color: #ffffff;
+      }
+      
+      .cardHeader {
+        width: 198px;
+        height: 108px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+      .headerName {
+        width: 157px;
+        height: 56px;
+      }
+      .frame1 {
+        width: 171px;
+        line-height: 40px;
+        padding: 4px, 8px, 4px, 8px;
+        gap: 10px;
+      }
+
+      .frame1 > p {
+        width: 155px;
+        color: #202842;
+        font-family: 'Nunito', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      .frame2 {
+        width: 151px;
+        line-height: 16px;
+        padding: 0px, 8px, 0px, 8px;
+        gap: 10px;
+      }
+
+      .frame2 > p {
+        width: 151px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      .prize {
+        width: 58px;
+        line-height: 36px;
+        padding: 0px, 8px, 0px, 8px;
+        gap: 10px;
+      }
+      .prize > p {
+        width: 42px;
+        height: 36px;
+        font-family: sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #202842;
+      }
+      .planDetails {
+        width: 198px;
+        height: 112px;
+        padding: 0px, 0px, 0px, 8px;
+      }
+      .group1 {
+        width: 190px;
+        height: 28px;
+        display: flex;
+      }
+      .frame6 {
+        width: 30px;
+        height: 28px;
+        left: 8px;
+        padding: 3px, 4px, 3px, 4px;
+        gap: 10px;
+      }
+      .frame7 {
+        width: 160px;
+        height: 28px;
+        left: 38px;
+        padding: 8px, 8px, 4px, 4px;
+        gap: 10px;
+      }
+      .group2 {
+        width: 190px;
+        height: 28px;
+        display: flex;
+      }
+      .group3 {
+        width: 190px;
+        height: 28px;
+        display: flex;
+      }
+      .group4 {
+        width: 190px;
+        height: 28px;
+        display: flex;
+      }
+      .subscribeBtn {
+        display: flex;
+        justify-content: center;
+      }
+      .subscribeBtn button {
+        background-color: #202842;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 156px;
+        height: 38px;
+        padding: 8px, 24px, 8px, 24px;
+        border-radius: 50px;
+        gap: 10px;
+      }
+      .subscribeBtn > button {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0em;
+        color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pricingSection">
+      <div class="cardOne">
+        <div class="carddetails">
+          <div class="cardDetails">
+            <div class="cardHeader">
+              <div class="headerName">
+                <div class="frame1"><p>Free Plan</p></div>
+                <div class="frame2"><p>For personal</p></div>
+              </div>
+              <div class="prize"><p>$0</p></div>
+            </div>
+            <div class="planDetails">
+              <div class="group1">
+                <div class="frame6">
+                  <img src="/answer4/assets/check-mark 1.png" alt="check-mark">
+                </div>
+                <div class="frame7">1 users</div>
+              </div>
+              <div class="group2">
+                <div class="frame6">
+                  <img src="/answer4/assets/check-mark 1.png" alt="check-mark">
+                </div>
+                <div class="frame7">4 Web mails</div>
+              </div>
+              <div class="group3">
+                <div class="frame6">
+                  <img src="/answer4/assets/check-mark 1.png" alt="check-mark">
+                </div>
+                <div class="frame7">Responsive Website</div>
+              </div>
+              <div class="group4">
+                <div class="frame6">
+                  <img src="/answer4/assets/check-mark 1.png" alt="check-mark">
+                </div>
+                <div class="frame7">Free SSL</div>
+              </div>
+            </div>
+          </div>
+          <div class="subscribeBtn"><button>Subscribe Now</button></div>
+        </div>
+      </div>
+      <div class="cardTwo">
+        <div class="carddetails">
+          <div class="cardDetails" style="background-color:  #202842">
+            <div class="cardHeader">
+              <div class="headerName" style="color: #ffffff;">
+                <div class="frame1"><p style="color: #ffffff;">Basic Plan</p></div>
+                <div class="frame2"><p>For small business</p></div>
+              </div>
+              <div class="prize"><p style="color: #ffffff;">$29</p></div>
+            </div>
+            <div class="planDetails" style="color: #ffffff;">
+              <div class="group1">
+                <div class="frame6">
+                  <img src="/answer4/assets/Frame 6.png" alt="check-mark">
+                </div>
+                <div class="frame7">Unlimited users</div>
+              </div>
+              <div class="group2">
+                <div class="frame6">
+                  <img src="/answer4/assets/Frame 6.png" alt="check-mark">
+                </div>
+                <div class="frame7">Unlimited Web mails</div>
+              </div>
+              <div class="group3">
+                <div class="frame6">
+                  <img src="/answer4/assets/Frame 6.png" alt="check-mark">
+                </div>
+                <div class="frame7">Responsive Website</div>
+              </div>
+              <div class="group4">
+                <div class="frame6">
+                  <img src="/answer4/assets/Frame 6.png" alt="check-mark">
+                </div>
+                <div class="frame7">Free SSL + SEO</div>
+              </div>
+            </div>
+          </div>
+          <div class="subscribeBtn"><button style="color: #1C1C1C; background-color: #ffffff;">Subscribe Now</button></div>
+        </div>
+      </div>
+      <div class="cardThree">
+        <div class="carddetails">
+          <div class="cardDetails">
+            <div class="cardHeader">
+              <div class="headerName">
+                <div class="frame1"><p>Pro Plan</p></div>
+                <div class="frame2"><p>For enterprise</p></div>
+              </div>
+              <div class="prize"><p>$49</p></div>
+            </div>
+            <div class="planDetails">
+              <div class="group1">
+                <div class="frame6">
+                  <img src="/answer4/assets/check-mark 1.png" alt="check-mark">
+                </div>
+                <div class="frame7">Unlimited users</div>
+              </div>
+              <div class="group2">
+                <div class="frame6">
+                  <img src="/answer4/assets/check-mark 1.png" alt="check-mark">
+                </div>
+                <div class="frame7">Unlimited Web mails</div>
+              </div>
+              <div class="group3">
+                <div class="frame6">
+                  <img src="/answer4/assets/check-mark 1.png" alt="check-mark">
+                </div>
+                <div class="frame7">Responsive Website</div>
+              </div>
+              <div class="group4">
+                <div class="frame6">
+                  <img src="/answer4/assets/check-mark 1.png" alt="check-mark">
+                </div>
+                <div class="frame7">Free SSL + SEO</div>
+              </div>
+            </div>
+          </div>
+          <div class="subscribeBtn"><button>Subscribe Now</button></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

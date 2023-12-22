@@ -1,0 +1,2 @@
+[1] The main difference and the main reason to use either one between the CSS Flexbox layout model and and the CSS Grid layout model is that Flexbox was designed for layout in one dimension - either row or a column, while Grid was designed for two-dimensional layout- rows and columns at the same time.
+[2] For a more simple layout style, you can use Flexbox, a one-dimensional system, as it's very helpful when working with rows.

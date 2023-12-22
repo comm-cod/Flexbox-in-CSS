@@ -1,0 +1,14 @@
+Answer1 - Justify content :-
+Justify content CSS property is used to position items in the main axis or horizontally by default in the Flexbox
+
+Answer2 - Align items :-
+Align items CSS property is used to  align itmes in cross axis or vertically by default.
+
+Answer3 - Gap :-
+Gap CSS property is used for the size of gap between the rows and columns in flexbox.
+
+Answer3 - Flex-direction :-
+It sets how flex items are placed in the flex container defining the main axis and the direction (normal or reversed).
+
+Answer4 - Flex wrap :-
+The flex-wrap CSS property sets whether flex items are forced onto one line or can wrap onto multiple lines. If wrapping is allowed, it sets the direction that lines are stacked.
